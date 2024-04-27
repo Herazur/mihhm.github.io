@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Discord Login</title>
+    <title>Discord Giriş</title>
 </head>
 <body>
     <button onclick="discordLogin()">Discord ile Giriş Yap</button>
 
     <script>
         function discordLogin() {
-            // Discord OAuth2 URL
-            var discordOAuthURL = "https://discord.com/oauth2/authorize?client_id=1233795441552920606&redirect_uri=https://herazur.github.io/mihhm.github.io/&response_type=code&scope=identify";
-            // Redirect to Discord login page
-            window.location.href = discordOAuthURL;
+            window.location.href = '/discord/login';
         }
     </script>
 </body>
